@@ -24,10 +24,10 @@ class wordAdapter:RecyclerView.Adapter<wordAdapter.TextItemViewHolder>() {
             holder.textView.setTextColor(Color.MAGENTA)
         }
         else{
-            holder.textView.text=item
             holder.textView.setTextColor(Color.BLACK)
 
         }
+            holder.textView.text=item
 
     }
 
